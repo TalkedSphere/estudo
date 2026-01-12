@@ -1,0 +1,239 @@
+# -----------------------
+# Sistema / OS
+# -----------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+
+# -----------------------
+# Segredos / ambiente
+# -----------------------
+.env
+.env.*.local
+*.key
+*.pem
+secrets.*
+credentials
+*.p12
+
+# -----------------------
+# Editores / IDEs
+# -----------------------
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains (IntelliJ, PyCharm, CLion, Rider, etc.)
+.idea/
+*.iml
+*.iws
+.idea/*
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------
+# Arquivos temporários
+# -----------------------
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+.localhistory/
+
+# -----------------------
+# Builds / artefatos binários (geral)
+# -----------------------
+build/
+dist/
+out/
+target/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# -----------------------
+# C / C++
+# -----------------------
+# Compilados
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+*.su
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build-*/
+compile_commands.json
+# Autotools
+autom4te.cache/
+ltmain.sh
+# VS Code C/C++ cache
+*.tgz
+
+# -----------------------
+# C# / .NET
+# -----------------------
+# Build outputs
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+*.userprefs
+*.userosscache
+# Rider
+.idea/
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+# Entity Framework
+*.edmx.sql
+# Rider/JetBrains caches
+.idea/
+.idea/*
+
+# -----------------------
+# Java
+# -----------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+# Maven / Gradle
+target/
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.mvn/
+# Eclipse / IntelliJ
+.settings/
+*.launch
+.classpath
+.project
+# IntelliJ
+out/
+
+# -----------------------
+# Python
+# -----------------------
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environments
+venv/
+env/
+.venv/
+.venv/*   # ignore everything in .venv
+venv.bak/
+# Packaging
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+# Tests / coverage
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+# Mypy
+.mypy_cache/
+# PyInstaller
+*.manifest
+*.spec
+# Jupyter
+.ipynb_checkpoints
+
+# -----------------------
+# Common package manager locks (do not ignore if you want reproducible installs)
+# -----------------------
+# package-lock.json
+# yarn.lock
+# Pipfile.lock
+
+# -----------------------
+# Docker / Terraform / Misc
+# -----------------------
+.docker/
+docker-compose.override.yml
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# -----------------------
+# Other binaries / archives / DB
+# -----------------------
+*.sqlite
+*.db
+*.sqlite3
+*.tar
+*.gz
+*.zip
+
+# -----------------------
+# Coverage / reports / IDE output
+# -----------------------
+coverage/
+.nyc_output/
+coverage-final.json
+report/
+
+# -----------------------
+# Temporary editor & OS files
+# -----------------------
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# -----------------------
+# End
+# -----------------------
