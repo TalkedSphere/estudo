@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class stringTask {
   private static final Scanner scanner = new Scanner(System.in);
-  private static final String VOGAIS = "aAeEiIoOuUyY";
+  private static final String VOGAIS = "aeiouy";
 
   public static void main(String[] args) {
     String palavra = scanner.nextLine();
