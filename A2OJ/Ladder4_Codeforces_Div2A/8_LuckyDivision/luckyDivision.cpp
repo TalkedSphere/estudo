@@ -3,13 +3,13 @@
  * Data: 19/01/2026
  *
  * Plataforma: A2OJ
- * Problema: Twins
+ * Problema: Lucky Division
  * Link: https://codeforces.com/problemset/problem/122/A
  * Dificuldade: 2
  */
 
 #include <bits/stdc++.h>
-#define SUCESSO 0
+#define SUCESSO (0)
 using namespace std;
 const vector<int> luckyNums = {4, 7};
 
