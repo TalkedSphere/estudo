@@ -9,6 +9,7 @@
  */
 
 #include <bits/stdc++.h>
+#define SUCESSO 0
 #define pb push_back
 using namespace std;
 
@@ -38,5 +39,5 @@ int main() {
   }
 
   cout << ans;
-  return 0;
+  return SUCESSO;
 }
