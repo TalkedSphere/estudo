@@ -14,7 +14,8 @@ using namespace std;
  
 int main() {
   int n, m;
-  int pos = 1, nextPos, time = 0;
+  int pos = 1, nextPos;
+  unsigned long long int time = 0;
 
   cin >> n >> m;
 
